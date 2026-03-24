@@ -7,16 +7,29 @@ Please be mindful that GraphToolkit is still an experimental package and that th
 I really hope Unity develops it further (especially for serialization of custom types), and I'll be updating this project as new updates come.
 
 ## How does it work ? 
-SimpleDialogues is built around 3 main types of nodes :
+SimpleDialogues is built around a node system. You must first place a Start Node and optionally end the dialogue with an End Node (though leaving the connection broken works as well).
+
+Other than that, there's 3 main types of nodes :
 
 #### Dialogue Node
 This node is used to send a line of text. You can provide information about the character saying this line through a scriptable object, and whether or not the player needs to press a key to continue (on by default).
 
+<img width="820" height="384" alt="image" src="https://github.com/user-attachments/assets/3c36115a-e878-44a1-b1c8-ce3ad9caf60f" />
+
+
 #### Choice Node
 A choice node pauses the game and sends the choices you provided to the display. Once the player selects their answer, the dialogue follows through the corresponding path. 
 
+<img width="696" height="428" alt="image" src="https://github.com/user-attachments/assets/509d2354-5232-411d-af6a-4f6941ad1768" />
+
+
 #### Scriptable Node
-This is where this tool's flexibility comes in. Scriptable nodes provide a way to inject your own custom logic into the dialogue via a scriptable object. After defining a maximum number of output for the node, you need to create a new class inheriting from `ScriptableNodeEvaluator`.
+This is where this tool's flexibility comes in. Scriptable nodes provide a way to inject your own custom logic into the dialogue via a scriptable object. 
+
+<img width="906" height="349" alt="image" src="https://github.com/user-attachments/assets/29ec8972-b5f2-4275-acfd-072c324a6bf6" />
+
+
+After defining a maximum number of output for the node, you need to create a new class inheriting from `ScriptableNodeEvaluator`.
 ```c#
 using SimpleDialogues.Runtime;
 
