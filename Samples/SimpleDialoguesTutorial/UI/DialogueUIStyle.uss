@@ -1,0 +1,75 @@
+.container {
+    flex-grow: 1;
+    bottom: auto;
+    height: 30%;
+    min-height: 30%;
+    max-height: 30%;
+    align-self: stretch;
+    top: 66%;
+    background-color: rgb(113, 113, 113);
+    margin-top: 1%;
+    margin-right: 1%;
+    margin-bottom: 1%;
+    margin-left: 1%;
+    padding-top: 12px;
+    padding-right: 12px;
+    padding-bottom: 12px;
+    padding-left: 12px;
+    border-left-color: rgb(255, 255, 255);
+    border-right-color: rgb(255, 255, 255);
+    border-top-color: rgb(255, 255, 255);
+    border-bottom-color: rgb(255, 255, 255);
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.choicesContainer {
+    flex-grow: 1;
+    position: absolute;
+    width: 53%;
+    height: 30%;
+    left: 45%;
+    background-color: rgb(91, 91, 91);
+    top: 47%;
+    display: none;
+}
+
+.continuePrompt {
+}
+
+.continuePrompt {
+    flex-grow: 1;
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    top: 76%;
+    left: 95%;
+    background-image: url("project://database/Assets/DialogueSystem/Samples/SimpleDialoguesTutorial/UI/ContinueIcon.png?fileID=2800000&guid=d70be3faf709c4398a4b7eea1ca3f52c&type=3#ContinueIcon");
+    -unity-background-image-tint-color: rgb(160, 248, 255);
+    display: none;
+}
+
+
+.dialogueLine {
+    flex-grow: 1;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    white-space: normal;
+    flex-wrap: wrap;
+}
+
+.choiceText {
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+}
+
+.choiceText:hover {
+    border-width: 1px;
+    border-color: white;
+}

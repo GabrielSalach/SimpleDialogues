@@ -1,0 +1,22 @@
+{
+    "name": "DialogueSystem.Editor",
+    "rootNamespace": "SimpleDialogues.Editor",
+    "references": [
+        "GUID:70ef9a24f4cfc4aec911c1414e3f90ad",
+        "GUID:d1e08c06f8f9473888c892637c83c913",
+        "GUID:8c9ef94c4e33aae44bff179e64581112",
+        "GUID:23291bca393693e478416e3effb9553c",
+        "GUID:8efad1609e05c824ca5ddaa943d4ddcb"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

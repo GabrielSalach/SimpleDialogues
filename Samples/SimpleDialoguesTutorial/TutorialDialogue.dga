@@ -1,0 +1,282 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 61
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 790b4d75d92f4b0984310a268dbd952f, type: 3}
+  m_Name: TutorialDialogue
+  m_EditorClassIdentifier: Unity.GraphToolkit.Editor::Unity.GraphToolkit.Editor.Implementation.GraphObjectImp
+  m_GraphModel:
+    rid: 7578569142147481785
+  references:
+    version: 2
+    RefIds:
+    - rid: -2
+      type: {class: , ns: , asm: }
+    - rid: 7578569142147481785
+      type: {class: GraphModelImp, ns: Unity.GraphToolkit.Editor.Implementation, asm: Unity.GraphToolkit.Editor}
+      data:
+        m_Guid:
+          m_Value0: 7771939822580315309
+          m_Value1: 11752642182193794417
+        m_HashGuid:
+          serializedVersion: 2
+          Hash: adb49c54177adb6b71cdeee9cbc519a3
+        m_Name: 
+        m_GraphNodeModels:
+        - rid: -2
+        - rid: -2
+        - rid: -2
+        - rid: -2
+        - rid: -2
+        - rid: -2
+        - rid: -2
+        - rid: -2
+        - rid: -2
+        - rid: -2
+        - rid: -2
+        m_GraphWireModels:
+        - rid: -2
+        - rid: -2
+        - rid: -2
+        - rid: -2
+        - rid: -2
+        - rid: -2
+        - rid: -2
+        - rid: -2
+        - rid: -2
+        - rid: -2
+        - rid: -2
+        - rid: -2
+        m_GraphStickyNoteModels: []
+        m_GraphPlacematModels: []
+        m_GraphVariableModels: []
+        m_GraphPortalModels:
+        - rid: -2
+        m_SectionModels:
+        - rid: 7578569142147481786
+        m_LocalSubgraphs: []
+        m_LastKnownBounds:
+          serializedVersion: 2
+          x: -195.5
+          y: -219
+          width: 2818
+          height: 751
+        m_GraphElementMetaData:
+        - m_Guid:
+            m_Value0: 5384995204921162509
+            m_Value1: 8018276669294457261
+          m_HashGuid:
+            serializedVersion: 2
+            Hash: 0dfb81a29b58bb4aad3119e825a4466f
+          m_Category: 0
+          m_Index: 0
+        - m_Guid:
+            m_Value0: 5344376510249374303
+            m_Value1: 4390065401489683419
+          m_HashGuid:
+            serializedVersion: 2
+            Hash: 5f125bcf1e0a2b4adb73861c39a5ec3c
+          m_Category: 0
+          m_Index: 1
+        - m_Guid:
+            m_Value0: 13453004026432821949
+            m_Value1: 8555991368034710297
+          m_HashGuid:
+            serializedVersion: 2
+            Hash: bd9a6d8de2abb2ba19730451d1fcbc76
+          m_Category: 2
+          m_Index: 0
+        - m_Guid:
+            m_Value0: 17263877293329106056
+            m_Value1: 1629987898237638760
+          m_HashGuid:
+            serializedVersion: 2
+            Hash: 8844d02aee9c95ef68d8a37e5be19e16
+          m_Category: 0
+          m_Index: 2
+        - m_Guid:
+            m_Value0: 18416661983667361537
+            m_Value1: 9102529355303774983
+          m_HashGuid:
+            serializedVersion: 2
+            Hash: 0117ef9c7f2095ff076b72ac38ae527e
+          m_Category: 0
+          m_Index: 3
+        - m_Guid:
+            m_Value0: 9978961732540878837
+            m_Value1: 15840684842211050145
+          m_HashGuid:
+            serializedVersion: 2
+            Hash: f5cf502fd3647c8aa182e7baef6ad5db
+          m_Category: 2
+          m_Index: 1
+        - m_Guid:
+            m_Value0: 7496160254328290740
+            m_Value1: 9163154544110223385
+          m_HashGuid:
+            serializedVersion: 2
+            Hash: b4bda3f208b607681940b26782102a7f
+          m_Category: 0
+          m_Index: 4
+        - m_Guid:
+            m_Value0: 9633196819088630757
+            m_Value1: 7291506833088557805
+          m_HashGuid:
+            serializedVersion: 2
+            Hash: e56333d577fdaf85edb29327d5a23065
+          m_Category: 0
+          m_Index: 5
+        - m_Guid:
+            m_Value0: 9509821289237416552
+            m_Value1: 11175322689107610284
+          m_HashGuid:
+            serializedVersion: 2
+            Hash: 688a71ce13acf983ac4a9fbec6b8169b
+          m_Category: 2
+          m_Index: 2
+        - m_Guid:
+            m_Value0: 11971270718770280371
+            m_Value1: 1090928854675237944
+          m_HashGuid:
+            serializedVersion: 2
+            Hash: b37756ce4a7f22a6382c246a03c2230f
+          m_Category: 3
+          m_Index: 0
+        - m_Guid:
+            m_Value0: 13694216746202687233
+            m_Value1: 11663670310406762639
+          m_HashGuid:
+            serializedVersion: 2
+            Hash: 01e79d5a93a10bbe8fb010bd59aedda1
+          m_Category: 0
+          m_Index: 6
+        - m_Guid:
+            m_Value0: 9415408371899144602
+            m_Value1: 6930640611137414328
+          m_HashGuid:
+            serializedVersion: 2
+            Hash: 9a99497e0740aa82b8e4bd6cea942e60
+          m_Category: 0
+          m_Index: 7
+        - m_Guid:
+            m_Value0: 10818698716235424442
+            m_Value1: 9814862115947729861
+          m_HashGuid:
+            serializedVersion: 2
+            Hash: bae22f9929bd2396c5d380d417653588
+          m_Category: 0
+          m_Index: 8
+        - m_Guid:
+            m_Value0: 17692168988646985797
+            m_Value1: 10009069250977999509
+          m_HashGuid:
+            serializedVersion: 2
+            Hash: 45507c42f53587f5952ad414745be78a
+          m_Category: 2
+          m_Index: 3
+        - m_Guid:
+            m_Value0: 17012318105579926074
+            m_Value1: 11158160977196703328
+          m_HashGuid:
+            serializedVersion: 2
+            Hash: 3ab209912ee517ec605e6f504ac0d99a
+          m_Category: 0
+          m_Index: 9
+        - m_Guid:
+            m_Value0: 14351664351750181041
+            m_Value1: 12459071673954824795
+          m_HashGuid:
+            serializedVersion: 2
+            Hash: b1d0b485b05a2bc75b72352dad83e7ac
+          m_Category: 2
+          m_Index: 4
+        - m_Guid:
+            m_Value0: 10741504658685455322
+            m_Value1: 7902053003847028228
+          m_HashGuid:
+            serializedVersion: 2
+            Hash: da6b267e937d1195044e9c1257bba96d
+          m_Category: 2
+          m_Index: 5
+        - m_Guid:
+            m_Value0: 16205303491374585317
+            m_Value1: 10983689291209886394
+          m_HashGuid:
+            serializedVersion: 2
+            Hash: e595c780aacde4e0bacad35d37e76d98
+          m_Category: 2
+          m_Index: 6
+        - m_Guid:
+            m_Value0: 4742912912945724128
+            m_Value1: 13811597068756952306
+          m_HashGuid:
+            serializedVersion: 2
+            Hash: e03abe502a36d241f2a415685ba6acbf
+          m_Category: 0
+          m_Index: 10
+        - m_Guid:
+            m_Value0: 3708414956821270597
+            m_Value1: 17530827626421410468
+          m_HashGuid:
+            serializedVersion: 2
+            Hash: 45d01355c1ef7633a4da730bd8024af3
+          m_Category: 2
+          m_Index: 7
+        - m_Guid:
+            m_Value0: 5344246062631031407
+            m_Value1: 6847233939565723164
+          m_HashGuid:
+            serializedVersion: 2
+            Hash: 6f12679b7a932a4a1c3ed065fd42065f
+          m_Category: 2
+          m_Index: 8
+        - m_Guid:
+            m_Value0: 16188909082367053496
+            m_Value1: 4591817711385039354
+          m_HashGuid:
+            serializedVersion: 2
+            Hash: b84e95b3098faae0fad17348e169b93f
+          m_Category: 2
+          m_Index: 9
+        - m_Guid:
+            m_Value0: 6008967062667288150
+            m_Value1: 16980753059371979900
+          m_HashGuid:
+            serializedVersion: 2
+            Hash: 565e4ee5b42364537c947e8af0c0a7eb
+          m_Category: 2
+          m_Index: 10
+        - m_Guid:
+            m_Value0: 10253870324593409236
+            m_Value1: 17602338673745493927
+          m_HashGuid:
+            serializedVersion: 2
+            Hash: d43c4f9ebb104d8ea77fb838c31148f4
+          m_Category: 2
+          m_Index: 11
+        m_EntryPoint:
+          rid: -2
+        m_Graph:
+          rid: 7578569169868161305
+    - rid: 7578569142147481786
+      type: {class: SectionModel, ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
+      data:
+        m_Guid:
+          m_Value0: 3828074444638930846
+          m_Value1: 13557232520994152240
+        m_HashGuid:
+          serializedVersion: 2
+          Hash: 9e4774e66c0d203530df3a0726f724bc
+        m_Version: 2
+        m_Items: []
+        m_Title: 
+    - rid: 7578569169868161305
+      type: {class: DialogueTreeAsset, ns: SimpleDialogues.Editor, asm: DialogueSystem.Editor}
+      data: 

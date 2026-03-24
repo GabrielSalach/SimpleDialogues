@@ -1,0 +1,11 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/DialogueSystem/Samples/SimpleDialoguesTutorial/UI/DialogueUIStyle.uss?fileID=7433441132597879392&amp;guid=d778bfa26a7f049e5919040df420ea6b&amp;type=3#DialogueUIStyle"/>
+    <ui:VisualElement name="Root" style="flex-grow: 1;">
+        <ui:VisualElement name="MainContainer" class="container">
+            <ui:Label text="&#10;" name="DialogueLine" class="dialogueLine"/>
+            <ui:VisualElement name="ContinuePrompt" class="continuePrompt"/>
+        </ui:VisualElement>
+        <ui:VisualElement name="ChoicesContainer" class="container choicesContainer" style="display: none;"/>
+    </ui:VisualElement>
+</ui:UXML>
+
